@@ -1,7 +1,10 @@
+require 'pry'
 # code here!
 class School
-  def initialize
+  def initialize(name)
+    @name = name
     @roster = {}
+    binding.pry
   end 
   
   def add_student(name,grade)
