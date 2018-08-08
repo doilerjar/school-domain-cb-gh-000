@@ -23,8 +23,11 @@ class School
   end 
 
   def sort 
+    result = {}
     @roster.each do |k,v|
-      v.sort
+      result[k] = v.sort
     end 
+    
+    result
   end 
 end 
