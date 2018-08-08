@@ -7,6 +7,10 @@ class School
     # binding.pry
   end 
   
+  def roster
+    @roster
+  end
+  
   def add_student(name,grade)
     if !@roster.key?(grade)
       @roster[grade] = []
