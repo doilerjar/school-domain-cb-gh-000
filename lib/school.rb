@@ -1,10 +1,9 @@
 require 'pry'
 # code here!
 class School
-  @roster = {}
-  
   def initialize(school_name)
     @name = school_name
+    @roster = {}
     # binding.pry
   end 
   
