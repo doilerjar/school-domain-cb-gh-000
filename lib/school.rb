@@ -16,3 +16,4 @@ end
 
 school = School.new("Bayside High School")
 school.add_student("AC Man", 10)
+school.add_sutdent("DC Man", 9)
