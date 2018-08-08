@@ -8,10 +8,6 @@ class School
     # binding.pry
   end 
   
-  def roster
-    @roster.length  
-  end
-  
   def add_student(name,grade)
     @roster[grade] << name
   end 
