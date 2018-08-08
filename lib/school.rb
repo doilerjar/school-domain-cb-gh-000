@@ -4,7 +4,7 @@ class School
   def initialize(school_name)
     @name = school_name
     @roster = {}
-    binding.pry
+    # binding.pry
   end 
   
   def add_student(name,grade)
